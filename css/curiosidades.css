@@ -1,0 +1,102 @@
+/* Estilos específicos para la página de curiosidades */
+.curiosidades {
+    max-width: 1200px;
+    margin: 4rem auto;
+    padding: 0 2rem;
+}
+
+.tarjeta-curiosidad {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.tarjeta-curiosidad img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.contenido-curiosidad {
+    padding: 2rem;
+}
+
+/* Estilos para la tabla comparativa */
+.contenedor-tabla {
+    overflow-x: auto;
+    margin: 2rem 0;
+    background: white;
+
+    border-top-left-radius: 30px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+}
+
+.tabla-comparativa {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+    font-size: 0.9rem;
+}
+
+.tabla-comparativa th {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 1rem;
+    text-align: left;
+}
+
+.tabla-comparativa td {
+    padding: 1rem;
+    border-bottom: 1px solid #eee;
+}
+
+.tabla-comparativa tbody tr:hover {
+    background-color: #f8f9fa;
+}
+
+.tabla-comparativa td:first-child {
+    font-weight: bold;
+    color: #1a1a1a;
+}
+
+
+
+/* Centrado del mapa */
+
+#mapa{
+    text-align: center;
+    margin-top: 80px;
+}
+.contenedor-mapa {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+iframe {
+    width: 100%;
+    height: 450px;
+    border: dotted rgb(48, 48, 48) 5px;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    .tabla-comparativa {
+        font-size: 0.8rem;
+    }
+
+    .tabla-comparativa th,
+    .tabla-comparativa td {
+        padding: 0.75rem;
+    }
+}

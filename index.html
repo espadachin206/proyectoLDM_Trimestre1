@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MotoWorld - El mundo de las motos</title>
+    <link rel="icon" type="image/x-icon" href="./fotos/favicon3.png">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/common.css">
+
+</head>
+<body>
+    <!-- Cabecera con navegación (navbar) -->
+    <!--El menút toggle se usa para hacer la navbar responsive, que en tamaño movil se abra con un menú hamburguesa-->
+    <header class="cabecera">
+        <nav class="navegacion">
+            <div class="logotipo">MotoWorld</div>
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="hamburguesa">
+                <!--Estos 3 span se usan para crear las tres lineas blancas del menú hamburguesa (lo he buscado)-->
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <!--Aquí usamos ul y li para crear los botones que llevan desde el index hasta las demás páginas, ademas usamos href para poner el link a las otras páginas-->
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="noticias.html">Noticias</a></li>
+                <li><a href="curiosidades.html">Curiosidades</a></li>
+                <li><a href="seguridad.html">Seguridad</a></li>
+                <li><a href="about-me.html">Sobre Mí</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Sección principal "hero section" -->
+        <section class="hero">
+            <h1>El Mundo de las Motocicletas</h1>
+            <p>Descubre todo sobre las mejores marcas y modelos del mercado</p>
+            <video src="https://youtu.be/PSHTkGHfSVo?si=FKKt6dJp6yvEKJAt"></video>
+        </section>
+
+
+    <!--Ahora hacemos las 3 secciones del index, las 3 son iguales-->
+        <!-- Sección Motos Japonesas -->
+        <section id="motos-japonesas" class="seccion-motos">
+            <h2>Marcas Japonesas</h2>
+            <div class="marcas">
+                <div class="tarjeta-marca">
+                    <img src="./fotos/Honda-Goldwing-2024-verde.jpg" alt="Foto de Honda goldwind">
+                    <h3>Honda</h3>
+                    <p>Líder mundial en producción de motocicletas, conocida por su fiabilidad y tecnología avanzada.</p>
+                </div>
+                <div class="tarjeta-marca">
+                    <img src="./fotos/yamahaR1.jpeg" alt="Foto de Yamaha R1">
+                    <h3>Yamaha</h3>
+                    <p>Reconocida por sus motos deportivas y su excelente rendimiento en competición.</p>
+                </div>
+                <div class="tarjeta-marca">
+                    <img src="./fotos/kawasaki_h2r.jpg" alt="Foto de Kawasaki H2R">
+                    <h3>Kawasaki</h3>
+                    <p>Especialista en motos deportivas de alto rendimiento y tecnología de vanguardia.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Motos Europeas -->
+        <section id="motos-europeas" class="seccion-motos">
+            <h2>Marcas Europeas</h2>
+            <div class="marcas">
+                <div class="tarjeta-marca">
+                    <img src="./fotos/ducati-Streetfighter-V4.jpg" alt="Foto de Ducati Streetfighter">
+                    <h3>Ducati</h3>
+                    <p>Icónica marca italiana conocida por sus motos deportivas de alto rendimiento.</p>
+                </div>
+                <div class="tarjeta-marca">
+                    <img src="./fotos/bmw_gs1200.jpg" alt="Foto de BMW GS1200">
+                    <h3>BMW</h3>
+                    <p>Prestigiosa marca alemana especializada en motos touring y de aventura.</p>
+                </div>
+                <div class="tarjeta-marca">
+                    <img src="./fotos/KTM-1290-Super-Duke-R-EVO-002.avif" alt="Foto de KTM Super Duke">
+                    <h3>KTM</h3>
+                    <p>Fabricante austriaco líder en motos off-road y deportivas.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Motos Chinas -->
+        <section id="motos-chinas" class="seccion-motos">
+            <h2>Marcas Chinas</h2>
+            <div class="marcas">
+                <div class="tarjeta-marca">
+                    <img src="./fotos/cf_moto_675NK.jpg" alt="Foto de CFMoto 675 NK">
+                    <h3>CFMoto</h3>
+                    <p>Marca emergente con una amplia gama de modelos y excelente relación calidad-precio.</p>
+                </div>
+                <div class="tarjeta-marca">
+                    <img src="./fotos/Benelli-Leoncino-250.jpg" alt="Foto de Benelli Leoncino 250">
+                    <h3>Benelli</h3>
+                    <p>Marca histórica italiana ahora bajo propiedad china, combina diseño europeo con producción asiática.</p>
+                </div>
+                <div class="tarjeta-marca">
+                    <img src="./fotos/Zontes-350M.jpeg" alt="Foto de Zontes 350M">
+                    <h3>Zontes</h3>
+                    <p>Nueva marca con tecnología moderna y diseños innovadores.</p>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section id="video-motos">
+            <h2 id="texto-video">Video S1000RR</h2>
+            <div class="contenedor-video">
+                <iframe src="https://www.youtube.com/embed/v6edU1hil88?si=SpEVXOjyeXe_ILgq" title="Video de youtube BMWS1000RR" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </section>
+
+
+
+
+
+        <!-- Sección de Contacto -->
+        <section class="seccion-contacto">
+            <h2>Contacta con Nosotros</h2>
+            <form class="formulario-contacto" action="#" >
+                <!-- Campo de texto - Nombre -->
+                <div class="formulario">
+                    <label for="nombre">Nombre Completo <span class="obligatorio">*</span></label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+
+                <!-- Campo numérico - Edad -->
+                <div class="formulario">
+                    <label for="edad">Edad <span class="obligatorio">*</span></label>
+                    <input type="number" id="edad" name="edad" min="16" max="99" required>
+                </div>
+
+                <!-- radio - Tipo de Moto -->
+                <div class="formulario">
+                    <label>¿Qué tipo de moto te interesa? <span class="obligatorio">*</span></label>
+                    <div class="grupo-radio">
+                        <label>
+                            <input type="radio" name="tipo-moto" value="deportiva" required>
+                            Deportiva
+                        </label>
+                        <label>
+                            <input type="radio" name="tipo-moto" value="naked" required>
+                            Naked
+                        </label>
+                        <label>
+                            <input type="radio" name="tipo-moto" value="trail" required>
+                            Trail
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Checkboxes - Intereses -->
+                <div class="formulario">
+                    <label>¿Qué te interesa? (Puedes seleccionar varios)</label>
+                    <div class="grupo-checkbox">
+                        <label>
+                            <input type="checkbox" name="intereses" value="noticias">
+                            Noticias y actualizaciones
+                        </label>
+                        <label>
+                            <input type="checkbox" name="intereses" value="reviews">
+                            Reviews de motos
+                        </label>
+                        <label>
+                            <input type="checkbox" name="intereses" value="eventos">
+                            Eventos y quedadas
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Textarea - Mensaje -->
+                <div class="formulario">
+                    <label for="mensaje">Dejanos un mensaje <span></span></label>
+                    <textarea id="mensaje" name="mensaje"></textarea>
+                </div>
+
+                <!-- Botón de envío -->
+                <button type="submit" class="boton-enviar">Enviar Mensaje</button>
+            </form>
+        </section>
+
+
+        
+    </main>
+
+
+    <!--Por último hacemos el footer-->>
+    <footer class="pie-pagina">
+        <p>&copy; 2024 MotoWorld - Todas las marcas mencionadas son propiedad de sus respectivos dueños</p>
+    </footer>
+</body>
+</html>

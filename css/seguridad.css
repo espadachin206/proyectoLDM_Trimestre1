@@ -1,0 +1,40 @@
+/* Estilos específicos para la página de seguridad */
+.contenido-seguridad {
+    max-width: 1200px;
+    margin: 4rem auto;
+    padding: 0 2rem;
+}
+
+.item-seguridad img {
+    max-height: 700px;
+}
+
+.rejilla-seguridad {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.item-seguridad {
+    background: white;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.consejos-seguridad {
+    margin-top: 4rem;
+    background: white;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.consejos-seguridad ul {
+    list-style-position: inside;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+
